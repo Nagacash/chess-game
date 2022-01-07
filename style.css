@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    height: 100vh;
+}
+
+
+
+.board {
+    width: 400px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.info {
+    width: 400px;
+    margin: auto;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+.text{
+    color: red;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+}
+
+.text2{
+    color: rgb(26, 25, 25);
+    font-family: url('/font/Barcelony.ttf');
+}
