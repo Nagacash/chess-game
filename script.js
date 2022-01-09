@@ -293,3 +293,7 @@ var cfg = {
     onSnapEnd: onSnapEnd
 };
 board = ChessBoard('board', cfg);
+
+window.oncontextmenu = (e) => {
+    e.preventDefault();
+  }
