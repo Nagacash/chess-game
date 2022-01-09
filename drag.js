@@ -299,6 +299,6 @@ function startTracking({ event, drag, drop, offset }) {
   body.addEventListener(end, cancelDrag, false)
   // Prevent the page scrolling during drag, on touch devices
   document.addEventListener("touchstart", noDefault, dragOption)
-
+  event.preventDefault()
   return cancelDrag
 }
