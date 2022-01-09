@@ -3,7 +3,12 @@ body {
     height: 100vh;
 }
 
-
+.bdr {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    
+}
 
 .board {
     width: 400px;

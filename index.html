@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Naga Apparel</title>
@@ -11,45 +12,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-<center><h2 class="text"> CHESS GAME</h2>
-<p><h3>Play chess online for free!!</h3> <br> <span class="text2">Have a good time with playing chess, have fun challenging the computer!</span></p>
-</center>
-<div id="board" class="board"></div>
-<div class="info">
-    <label style="display:none;">Search depth:
-    <select id="search-depth">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3" selected>3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-    </select>
-	</label>
-    <br>
-    <span>Positions evaluated: <span id="position-count"></span></span>
-    <br>
-    <span>Time: <span id="time"></span></span>
-    <br>
-    <span>Positions/s: <span id="positions-per-s"></span> </span>
-    <br>
-    <br>
-    <div id="move-history" class="move-history">
+    <center>
+        <h2 class="text"> CHESS GAME</h2>
+        <p>
+        <h3>Play chess online for free!!</h3> <br> <span class="text2">Have a good time with playing chess, have fun
+            challenging the computer!</span></p>
+    </center>
+    <div id="board" class="board"></div>
+    <div class="info">
+        <label style="display:none;">Search depth:
+            <select id="search-depth">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </label>
+        <br>
+        <span>Positions evaluated: <span id="position-count"></span></span>
+        <br>
+        <span>Time: <span id="time"></span></span>
+        <br>
+        <span>Positions/s: <span id="positions-per-s"></span> </span>
+        <br>
+        <br>
+        <div id="move-history" class="move-history">
+        </div>
     </div>
-</div>
-<p> <a href="https://naga-apparel.ecwid.com/">Designed by Naga Apparel</a></p>
 
-<br><br><br>
-<div style="width: 100%; height: 100px; background-color: black">
-<img src="/img/chesspieces/wikipedia/naga11.jpeg" style="width: 100%; height: auto;">
-</div>
+    <div class="bdr">
+        <a href="https://naga-apparel.ecwid.com/" style="color: white">Designed by Naga Apparel</a>
+    </div>
 
-<script src="lib/jquery/jquery-3.2.1.min.js"></script>
-<script src="lib/chessboardjs/js/chess.js"></script>
-<script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
-<script src="script.js"></script>
-<script>
+    <br><br><br>
 
-</script>
+    <div>
+        <img src="/img/chesspieces/wikipedia/naga11.jpeg" style="width: 100%; height: auto;">
+    </div>
+
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="lib/chessboardjs/js/chess.js"></script>
+    <script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+    <script src="script.js"></script>
+    <script src="js/drag.js"></script>
+    <script src="js/removeFrom.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
