@@ -294,6 +294,7 @@ var cfg = {
 };
 board = ChessBoard('board', cfg);
 
+// Prevents others from inspecting your code
 window.oncontextmenu = (e) => {
     e.preventDefault();
   }
